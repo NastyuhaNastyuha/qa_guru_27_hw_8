@@ -22,6 +22,7 @@ import static utils.RandomUtils.*;
 
 @DisplayName("Тесты на форму Practice Form demoqa")
 @Tag("demoqa")
+@Tag("properties")
 public class PracticeFormWithPageObjectsTests extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
