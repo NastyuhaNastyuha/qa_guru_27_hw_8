@@ -55,3 +55,9 @@ task properties_test(type: Test) {
         includeTags("properties")
     }
 }
+
+task properties_debug_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("property_debug")
+    }
+}

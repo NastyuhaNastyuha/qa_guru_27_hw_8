@@ -141,6 +141,7 @@ public class PracticeFormWithPageObjectsTests extends TestBase {
     }
 
     @Test
+    @Tag("property_debug")
     @Tag("REGRESSION")
     @Tag("MEDIUM")
     @DisplayName("Заполнение формы без обязательных полей")
